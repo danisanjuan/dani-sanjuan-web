@@ -1,4 +1,53 @@
-<title>Dani Sanjuán</title>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dani Sanjuán — Fisioterapeuta y docente de anatomía</title>
+<meta name="description" content="Fisioterapeuta, profesor de anatomía e investigador en Zaragoza. Docencia, Píldoras Anatómicas, el libro Tu cuerpo no está roto y URUZ.">
+<link rel="canonical" href="https://danisanjuan.com/">
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://danisanjuan.com/">
+<meta property="og:site_name" content="Dani Sanjuán">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Dani Sanjuán — Fisioterapeuta y docente de anatomía">
+<meta property="og:description" content="Fisioterapeuta, profesor de anatomía e investigador en Zaragoza. Docencia, Píldoras Anatómicas, el libro Tu cuerpo no está roto y URUZ.">
+<meta property="og:image" content="https://danisanjuan.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Dani Sanjuán">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dani Sanjuán — Fisioterapeuta y docente de anatomía">
+<meta name="twitter:description" content="Fisioterapeuta, profesor de anatomía e investigador en Zaragoza. Docencia, Píldoras Anatómicas, el libro Tu cuerpo no está roto y URUZ.">
+<meta name="twitter:image" content="https://danisanjuan.com/og-image.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dani Sanjuán",
+  "url": "https://danisanjuan.com/",
+  "image": "https://danisanjuan.com/og-image.jpg",
+  "jobTitle": "Fisioterapeuta y profesor de anatomía",
+  "worksFor": [
+    { "@type": "CollegeOrUniversity", "name": "Universidad San Jorge" },
+    { "@type": "CollegeOrUniversity", "name": "Universitat de Lleida" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/pildorasanatomicas/",
+    "https://www.youtube.com/@Pildorasanatomicas",
+    "https://pildorasanatomicas.es",
+    "https://orcid.org/0000-0001-6423-2319"
+  ]
+}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;600&family=Work+Sans:wght@300;400;500;600;700&display=swap">
@@ -85,13 +134,13 @@
   .featured .wordmark { font-size: clamp(2.4rem, 8vw, 5rem); line-height: 0.98; margin: 0 0 clamp(24px, 4vw, 36px); text-wrap: balance; }
   .featured .split { display: grid; grid-template-columns: 1fr 1.3fr; gap: 24px; align-items: end; }
   @media (max-width: 700px) { .featured .split { grid-template-columns: 1fr; } }
-  .featured .split h3 { font-size: clamp(1.3rem, 2.6vw, 1.6rem); margin: 0; line-height: 1.1; }
+  .featured .split h3 { font-size: clamp(1.3rem, 2.6vw, 1.6rem); margin: 0; line-height: 1.1; text-wrap: balance; }
   .featured .split p { margin: 0 0 16px; font-size: 0.98rem; max-width: 46ch; color: var(--muted-on-ink); }
   .featured .cta-link { border-color: var(--accent-tint); color: var(--cream); }
 
   /* Elevated — 02, docencia */
   .elevated { background: var(--stone); border-radius: 4px; padding: clamp(28px, 5vw, 48px); margin-bottom: 16px; }
-  .elevated h3 { font-size: clamp(1.7rem, 4vw, 2.3rem); margin: 0 0 16px; max-width: 20ch; }
+  .elevated h3 { font-size: clamp(1.7rem, 4vw, 2.3rem); margin: 0 0 16px; max-width: 20ch; text-wrap: balance; }
   .elevated p { font-size: 1.02rem; max-width: 56ch; color: var(--muted-on-cream); margin: 0 0 20px; }
   .elevated .cta-link { border-color: var(--accent); }
 
@@ -100,7 +149,7 @@
   @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
 
   .card { display: flex; flex-direction: column; border-radius: 4px; padding: 24px; text-decoration: none; min-height: 260px; }
-  .card h3 { font-size: clamp(1.4rem, 3vw, 1.7rem); line-height: 1.08; margin: 0 0 12px; }
+  .card h3 { font-size: clamp(1.4rem, 3vw, 1.7rem); line-height: 1.08; margin: 0 0 12px; text-wrap: balance; }
   .card p { font-size: 0.94rem; margin: 0 0 auto; max-width: 36ch; }
   .card .cta-link { margin-top: 24px; align-self: flex-start; }
 
@@ -114,12 +163,12 @@
 
   /* ---------- Sobre mí ---------- */
 
-  section.about { background: var(--ink); color: var(--cream); padding-block: clamp(56px, 9vh, 96px); }
-  section.about .mono { color: var(--muted-on-ink); display: block; margin-bottom: 20px; }
+  section.about { background: var(--stone); color: var(--ink); padding-block: clamp(56px, 9vh, 96px); }
+  section.about .mono { color: var(--accent); display: block; margin-bottom: 20px; }
   section.about h2 { font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; margin: 0 0 clamp(32px, 6vh, 56px); text-wrap: balance; max-width: 20ch; }
   .about-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
   @media (max-width: 700px) { .about-cols { grid-template-columns: 1fr; } }
-  .about-cols p { margin: 0; color: var(--muted-on-ink); font-size: 1.02rem; max-width: 40ch; }
+  .about-cols p { margin: 0; color: var(--muted-on-cream); font-size: 1.02rem; max-width: 40ch; }
 
   /* ---------- Redes ---------- */
 
@@ -140,7 +189,14 @@
   footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 0.78rem; color: var(--muted-on-cream); }
 
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+  @media (max-width: 480px) {
+    nav.topnav .wrap { flex-wrap: wrap; row-gap: 8px; }
+    .nav-links { gap: 16px; font-size: 0.85rem; }
+  }
 </style>
+</head>
+<body>
 
 <nav class="topnav">
   <div class="wrap">
@@ -156,10 +212,10 @@
 <header class="hero" id="inicio">
   <div class="wrap">
     <div>
-      <h1 class="display headline">Trato, enseño<br>y comparto.</h1>
+      <h1 class="display headline">Enseño, trato<br>y comparto.</h1>
       <p class="lede">
-        Soy Dani Sanjuán. Fisioterapeuta, profesor de anatomía en la Universidad San Jorge y en la Universitat de
-        Lleida, y autor de <em>Tu cuerpo no está roto</em>, que sale el 1 de octubre.
+        Soy Dani Sanjuán. Profesor de anatomía en la Universidad San Jorge y en la Universitat de Lleida,
+        fisioterapeuta, y autor de <em>Tu cuerpo no está roto</em>, que sale el 1 de octubre.
       </p>
       <a class="cta-link" href="#proyectos">Mis proyectos, aquí abajo <span class="arrow">↓</span></a>
     </div>
@@ -175,7 +231,7 @@
       <h2 class="display">Esto es lo que llevo entre manos.</h2>
     </div>
 
-    <a class="featured" href="https://pildorasanatomicas.es" data-pending="verificar-url">
+    <a class="featured" href="https://pildorasanatomicas.es">
       <div class="card-top mono"><span>01</span><span>Ancla</span></div>
       <h2 class="display wordmark">PÍLDORAS<br>ANATÓMICAS</h2>
       <div class="split">
@@ -199,23 +255,23 @@
         y llevo la sala de disección de la USJ. Ahora mismo estoy cerrando la tesis doctoral sobre fibromialgia —
         la defiendo en breve.
       </p>
-      <a class="cta-link" href="#" data-pending="orcid">ORCID <span class="arrow">↗</span></a>
+      <a class="cta-link" href="https://orcid.org/0000-0001-6423-2319">ORCID <span class="arrow">↗</span></a>
     </div>
 
     <div class="grid">
-      <a class="card tone-outline" href="#" data-pending="enlace-fnac">
+      <a class="card tone-outline" href="https://www.larousse.es/libro/libros-ilustrados-practicos/tu-cuerpo-no-esta-roto-daniel-sanjuan-sanchez-9791388145063/">
         <div class="card-top mono"><span>03</span><span>Libro</span></div>
         <h3 class="display">Tu cuerpo no está roto</h3>
         <p>Fisioterapia de andar por casa, publicado con Larousse. Sale el 1 de octubre.</p>
         <span class="cta-link">Comprar <span class="arrow">↗</span></span>
       </a>
 
-      <a class="card tone-ink" href="#" data-pending="enlace-uruz-waitlist">
+      <div class="card tone-ink">
         <div class="card-top mono"><span>04</span><span>Pronto</span></div>
         <h3 class="display">URUZ Salud y Rendimiento</h3>
         <p>Algo nuevo se está cociendo en Zaragoza. Todavía no puedo contar mucho más.</p>
-        <span class="cta-link">Apuntarme a la lista de espera <span class="arrow">↗</span></span>
-      </a>
+        <span class="cta-link" style="border-bottom-color: var(--muted-on-ink); border-bottom-style: dashed; color: var(--muted-on-ink);">Muy pronto</span>
+      </div>
     </div>
   </div>
 
@@ -225,9 +281,9 @@
       <h2 class="display">El cuerpo es el hilo que conecta todo esto.</h2>
       <div class="about-cols">
         <p>
-          Me formé en la Universitat de Lleida y hoy reparto el tiempo entre la clínica, las aulas y la sala de
-          disección. Trabajo siempre desde lo biopsicosocial, y digo solo lo que la evidencia respalda — también
-          cuando lo cómodo sería simplificar.
+          Me formé en la Universitat de Lleida y hoy reparto el tiempo entre la clínica, las aulas de la USJ y la
+          UdL, y la sala de disección. Trabajo siempre desde lo biopsicosocial, y digo solo lo que la evidencia
+          respalda — también cuando lo cómodo sería simplificar.
         </p>
         <p>
           De ahí salen los demás proyectos, no al revés. Cuando no estoy con esto, normalmente ando entrenando
@@ -249,7 +305,7 @@
           <span class="desc">Anatomía, mitos y casos clínicos</span>
           <span class="arrow">↗</span>
         </a>
-        <a class="contact-row" href="#" data-pending="youtube">
+        <a class="contact-row" href="https://www.youtube.com/@Pildorasanatomicas">
           <span class="name display">YouTube</span>
           <span class="desc">Contenido en vídeo</span>
           <span class="arrow">↗</span>
@@ -271,3 +327,6 @@
     <span class="mono">© 2026</span>
   </div>
 </footer>
+
+</body>
+</html>
